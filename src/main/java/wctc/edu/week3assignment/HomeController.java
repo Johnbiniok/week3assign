@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/forward-me")
     public String doForward() {
-        return "forward:learn/find-exchange";
+        return "forward:/learn/exchange";
     }
 
     @RequestMapping("/redirect-me")
     public String doRedirect() {
         //return "redirect:http://www.wctc.edu";
-        return "redirect:/learn/find-exchange";
+        return "redirect:/learn/exchange";
     }
 
     @RequestMapping("/")

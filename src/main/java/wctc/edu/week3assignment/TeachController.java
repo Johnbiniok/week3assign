@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/learn")
 public class TeachController {
 
-        @RequestMapping("/exhange")
+        @RequestMapping("/exchange")
         public String showExchangeInfo() {
             return "pages/find-exchange";
         }
@@ -21,5 +21,8 @@ public class TeachController {
         public String showInvestInfo() {
             return "pages/investment-options";
         }
+
+        @RequestMapping("/more")
+        public String showMoreInfo() { return "pages/learn-more"; }
 
 }

@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Learning to invest in Cryptocurrency</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
-
+<div th:insert="fragments/_head :: header"></div>
+<h2>
+    Learning about Cryptocurrency investing
+</h2>
+<p>
+    Cryptocurrency is a digital currency in which encryption techniques are used to regulate the generation of
+    units of currency and verify the transfer of funds, operating independently of a central bank. Many people around the
+    world are starting to see the benefits of using a currency that is neither controlled or managed by a central
+    governance agency. Although it is a "new" form a currency, it has many benefits that standardized currencies
+    don't, including cheap, instant transfers of large sums of money. Cryptocurrency is quickly finding its way into
+    main investment strategies and the longer it exists, the more it will be regulated and become trusted. What this
+    means is it will continue to grow in a way similar to stocks, where it is gaining value consistently over a
+    period of time.
+</p>
+<img th:src="@{/img/bitcoinsand.jpeg}" id="bitcoinsand" alt="Bitcoin with American flag in background">
+<h2>
+    Aim of this website
+</h2>
+<p>
+   The aim of this website is to give you more information on cryptocurrency as a whole, while also showing you how
+    to invest in cryptocurrency for a guaranteed return.
+</p>
+<p>
+    The Museum provides programming that combines natural history education with youth development because the Museum is
+    a community organization devoted to providing family education. The Museum creates life-long learners who will
+    continue to take part in Museum activities.
+</p>
+<p>
+    Content taken from <a href="https://www.cablemuseum.org/">here.</a>
+</p>
+<div th:replace="fragments/_foot :: footer"></div>
 </body>
 </html>

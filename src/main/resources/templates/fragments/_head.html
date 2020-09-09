@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<html lang="en" xmlns:th="http://thymeleaf.org">
 <body>
-
+<header th:fragment="header">
+    <a th:href="@{/}"><img th:src="@{/img/logo.jpeg}"/></a>
+    <nav>
+        <ul>
+            <li><a th:href="@{/learn/exchange}">Exchanges</a></li>
+            <li><a th:href="@{/learn/investment}">Investment Options</a></li>
+            <li><a th:href="@{/learn/bank}">How to begin Investing</a></li>
+            <li><a th:href="@{/learn/more}">Learn More</a></li>
+            <!--<li><a th:href="@{/redirect-me}">Redirect</a></li>
+            <li><a th:href="@{/forward-me}">Forward</a></li>-->
+        </ul>
+    </nav>
+</header>
 </body>
 </html>
