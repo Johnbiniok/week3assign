@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>What to invest in?</title>
+    <title>Exchanges</title>
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
@@ -10,36 +10,30 @@
 <div th:insert="fragments/_header :: header"></div>
 
 <h1>Investment Options</h1>
-<img class="left" th:src="@{/img/common-fossils-of-wisconsin.jpg}" alt="Fossil development">
+<img class="logos" th:src="@{/img/augurcoin.png}" alt="Augur(REP) Coin">
+<img class="logos" th:src="@{/img/litecoin.png}" alt="Litecoin">
+<img class="logos" th:src="@{/img/chainlinklogo.jpg}" alt="Chainlink">
+
+<h2>Coins</h2>
 <p>
-    Many people view the earth and its lifeforms as what we see today. However, both have changed dramatically
-    through
-    time; the evidence for this comes from something most of us see every day, but think little about: rock. Much of
-    the
-    rock in Wisconsin contains fossils, the remains of ancient organisms. After these organisms died, parts of their
-    bodies were preserved in rock. Paleontologists—people who study ancient life on the basis of fossilized plants
-    and
-    animals—use them as clues about the Earth's past. The fossils found in rock throughout Wisconsin were formed
-    from
-    creatures that lived in the warm, shallow seas that once covered the state.
+    There are a wide variety of coins to choose from when investing in cryptocurrency, including the ones pictured above
+    which are Augur(REP), Litecoin(LTC), and Chainlink(LINK). Different coins are offered based on exchange but there are
+    main cryptocurrencies that are offered on most platforms. Those are bitcoin, Etherium, and Litecoin. When deciding which
+    coin(s) to invest in, you need to watch their values over time, as well as keep up on current events which could cause
+    the price of the coin to either spike up or down.
 </p>
-<h2>How Fossils Form</h2>
+<h2>Earning Interest</h2>
 <p>
-    Because fossils form under specific conditions, only a small percentage of organisms is preserved. Hard skeletal
-    parts such as shells, bones, and teeth are the most commonly fossilized remains because they are more durable
-    than
-    the soft tissues, which decay rapidly.
+    There are many different strategies when investing in cryptocurrency, but if you are in it for a long term investment,
+    you can invest in certain currencies that could gain you up to 4% APR, which is compounding interest. Some of these
+    coins are referred to as "stablecoins", which hold their value typically around 1 USD. This can be a decent long term
+    investment plan, because it yields a high return, with an extremely low risk.
 </p>
-<p>
-    Fossils are preserved in sedimentary rock, which is formed from what is essentially scrap material: weathering
-    processes break up and erode rocks at the Earth's surface, and wind and water carry away the scraps—pebbles,
-    sand,
-    silt, and clay. Many of these particles, called sediment, then settle on sea bottoms. As sea creatures die and
-    also
-    settle to the seafloor, they eventually are buried by sediment (see the figure on fossil formation).
-</p>
-<p>Content taken from <a
-        href="https://wgnhs.wisc.edu/wisconsin-geology/fossils-of-wisconsin/fossil-formation-in-wisconsin/">here.</a>
+
+<a th:href="@{/learn/bank}"><btn class="nextBtn">Now you're ready to begin!</btn></a>
+
+<p>Content created personally with pictures taken from <a
+        th:href="@{https://unsplash.com/}">Unsplash</a>
 </p>
 <div th:insert="fragments/_footer :: footer"></div>
 </body>

@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <body>
 <header th:fragment="header">
-    <a th:href="@{/}"><img th:src="@{/img/logo.jpeg}"/></a>
+    <a th:href="@{/}" id="mainLink"><img th:src="@{/img/logo.jpeg}" class="topBar" id="logoImg"/></a>
     <nav>
         <ul>
             <li><a th:href="@{/learn/exchange}">Exchanges</a></li>
@@ -13,6 +13,7 @@
             <li><a th:href="@{/forward-me}">Forward</a></li>-->
         </ul>
     </nav>
+    <h1 class="topBar" id="pageTitle">Crypto-Learn</h1>
 </header>
 </body>
 </html>

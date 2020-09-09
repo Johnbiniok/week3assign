@@ -2,6 +2,8 @@ body {
     font-family: Arial;
     padding: 25px;
     width: 50%;
+    background-color: #111;
+    color: aliceblue;
 }
 
 img {
@@ -30,11 +32,12 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: indianred;
+    color: black;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: red;
 }
 
 .left {
@@ -43,8 +46,40 @@ li a:hover {
 
 footer {
     display: block;
-    color: white;
+    color: lightgrey;
     text-align: center;
     padding: 14px 16px;
-    background-color: #111;
+    background-color: #000;
+}
+/*.topBar{
+    display: inline;
+}*/
+.logos{
+    display: inline;
+}
+#mainLink{
+    text-decoration: none;
+}
+/*#pageTitle{
+    margin-bottom: 10px;
+}*/
+#logoImg{
+    float: left;
+}
+.nextButton a{
+    background-color: #111; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.nextButton a:hover {
+    background-color: indianred;
+    color: black;
+}
+a {
+    text-decoration: none;
 }

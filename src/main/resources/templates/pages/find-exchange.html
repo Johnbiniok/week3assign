@@ -10,31 +10,39 @@
 <div th:insert="fragments/_header :: header"></div>
 
 <h1>Exchanges</h1>
-<img class="left" class="logos" th:src="@{/img/coinbaseLogo.jpeg}" alt="Coinbase logo">\
-<img class="left" class="logos" th:src="@{/img/binanceLogo.jpeg}" alt="Binance logo">
+<img class="logos" th:src="@{/img/coinbaseLogo.jpeg}" alt="Coinbase logo">
+<img class="logos" th:src="@{/img/binanceLogo.png}" alt="Binance logo">
 <p>
-    There are many exchanges where the user is enabled to buy, sell, or trade cryptocurrency. There are some main companies
+    There are many exchanges where the user is enabled to buy, sell, or trade cryptocurrency. There are some main
+    companies
     that are known for having the most accurate prices while also having a reputation for being reliable which is very
     important because most if not all exchanges are not backed up by the FDIC. Due to this, it is extremely important
     that you don't put your trust, and your money, into a system that is insecure or untrustworthy.
 </p>
 <h2>Which one should you choose?</h2>
 <p>
-    Because fossils form under specific conditions, only a small percentage of organisms is preserved. Hard skeletal
-    parts such as shells, bones, and teeth are the most commonly fossilized remains because they are more durable
-    than
-    the soft tissues, which decay rapidly.
+    The exchange you decide to use is 100% up to you. The best thing to do is choose an exchange that has an interface
+    that is easy for you to use and understand. The easier it is for you to understand what is happening in the exchange,
+    the more likely a possibility it is that you will be able to make money. A major factor that should be considered when
+    choosing an exchange are the fees that are charged. Some may charge more or less, but the one's who charge more aren't
+    always the worst because they could come with other features as well.
 </p>
+<h2>How do you store it?</h2>
 <p>
-    Fossils are preserved in sedimentary rock, which is formed from what is essentially scrap material: weathering
-    processes break up and erode rocks at the Earth's surface, and wind and water carry away the scraps—pebbles,
-    sand,
-    silt, and clay. Many of these particles, called sediment, then settle on sea bottoms. As sea creatures die and
-    also
-    settle to the seafloor, they eventually are buried by sediment (see the figure on fossil formation).
+    When you purchase cryptocurrency on an exchange, it normally stores your purchased currency online in a digital wallet.
+    An alternative(and more secure way) to store your funds is to download a wallet (such as coinbase wallet or binance wallet)
+    onto your device. Then, you can transfer over currency from your online wallet to your offline one. This means that
+    there are no ways for hackers to take it if they manage to hack into the exchange since it is now stored on your
+    device with a wallet. The downside to this is if your device gets lost/stolen you will need to make sure you store
+    the 12-word recovery phrase in a safe place. Without that, it would be impossible to retrieve your wallet.
 </p>
-<p>Content taken from <a
-        href="https://wgnhs.wisc.edu/wisconsin-geology/fossils-of-wisconsin/fossil-formation-in-wisconsin/">here.</a>
+<h2>List of exchanges</h2>
+<a th:href="@{https://coinmarketcap.com/rankings/exchanges/}">https://coinmarketcap.com/rankings/exchanges/</a>
+<br />
+<br />
+<btn class="nextBtn"><a th:href="@{/learn/investment}">Learn about investment options</a></btn>
+<p>Content created personally with pictures taken from <a
+        th:href="@{https://unsplash.com/}">Unsplash</a>
 </p>
 <div th:insert="fragments/_footer :: footer"></div>
 </body>

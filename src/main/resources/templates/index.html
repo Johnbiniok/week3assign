@@ -6,7 +6,7 @@
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
-<div th:insert="fragments/_head :: header"></div>
+<div th:insert="fragments/_header :: header"></div>
 <h2>
     Learning about Cryptocurrency investing
 </h2>
@@ -28,14 +28,10 @@
    The aim of this website is to give you more information on cryptocurrency as a whole, while also showing you how
     to invest in cryptocurrency for a guaranteed return.
 </p>
-<p>
-    The Museum provides programming that combines natural history education with youth development because the Museum is
-    a community organization devoted to providing family education. The Museum creates life-long learners who will
-    continue to take part in Museum activities.
-</p>
+<a th:href="@{/learn/exchange}"><btn class="nextBtn">Get Started</btn></a>
 <p>
     Content taken from <a href="https://www.cablemuseum.org/">here.</a>
 </p>
-<div th:replace="fragments/_foot :: footer"></div>
+<div th:insert="fragments/_footer :: footer"></div>
 </body>
 </html>

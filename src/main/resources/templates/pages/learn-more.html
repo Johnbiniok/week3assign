@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org">
+<html lang="en" xmlns:th="http://thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://thymeleaf.org ">
 <head>
     <meta charset="UTF-8">
     <title>Learn more about crypto</title>
@@ -9,37 +10,37 @@
 
 <div th:insert="fragments/_header :: header"></div>
 
-<h2>Learn More</h2>
-<img class="left" th:src="@{/img/common-fossils-of-wisconsin.jpg}" alt="Fossil development">
+<h1>Learn More</h1>
+<img class="left" th:src="@{/img/buildMeasureEarn.jpeg}" alt="Fossil development">
 <p>
-    Many people view the earth and its lifeforms as what we see today. However, both have changed dramatically
-    through
-    time; the evidence for this comes from something most of us see every day, but think little about: rock. Much of
-    the
-    rock in Wisconsin contains fossils, the remains of ancient organisms. After these organisms died, parts of their
-    bodies were preserved in rock. Paleontologists—people who study ancient life on the basis of fossilized plants
-    and
-    animals—use them as clues about the Earth's past. The fossils found in rock throughout Wisconsin were formed
-    from
-    creatures that lived in the warm, shallow seas that once covered the state.
+    Cryptocurrency is a very complex topic. In order to understand the inner workings of how the prices go up and down,
+    you will need to research, listen to podcasts, and watch price changes. Experience is important when it comes to
+    investing in cryptocurrency so you can't be afraid to lose a little bit of money in order to figure out what you need
+    do! Some investments may lead to more knowledge gain than monetary gain, but in my opinion, that is the easiest way to
+    learn how to start making money.
 </p>
-<h2>How Fossils Form</h2>
+<h2>Podcasts</h2>
 <p>
-    Because fossils form under specific conditions, only a small percentage of organisms is preserved. Hard skeletal
-    parts such as shells, bones, and teeth are the most commonly fossilized remains because they are more durable
-    than
-    the soft tissues, which decay rapidly.
+    There are quite a few cryptocurrency websites where they hold regular podcasts, either on the current state of things
+    or possibilities for the future. These can be a great tool to help cement your knowledge, or learn new things! Forbes has
+    done an excellent job gathering some of the best podcasts <a
+        th:href="@{https://www.forbes.com/sites/tatianakoffman/2020/06/19/top-10-crypto-podcasts-of-2020/#4de935f63064}">here.</a>
+    Personally, however, I prefer to listen to <a
+        th:href="@{https://www.coindesk.com/tag/podcasts}">coindesk podcasts</a>, which seem to be made well with credible information and
+    sources.
 </p>
+<h2>News</h2>
 <p>
-    Fossils are preserved in sedimentary rock, which is formed from what is essentially scrap material: weathering
-    processes break up and erode rocks at the Earth's surface, and wind and water carry away the scraps—pebbles,
-    sand,
-    silt, and clay. Many of these particles, called sediment, then settle on sea bottoms. As sea creatures die and
-    also
-    settle to the seafloor, they eventually are buried by sediment (see the figure on fossil formation).
+    There are several sources for news as well. You can find a list of reliable news at either <a
+        th:href="@{https://www.coindesk.com}">coindesk.com</a> or <a
+        th:href="@{https://cointelegraph.com/}">cointelegraph.com</a>. These sources are specifically for the latest news
+    on cryptocurrency. You can also find a lot of news on other investment websites as well, but these websites are
+    geared specifically for cryptocurrency, so they will have the most accurate news and predictions.
 </p>
-<p>Content taken from <a
-        href="https://wgnhs.wisc.edu/wisconsin-geology/fossils-of-wisconsin/fossil-formation-in-wisconsin/">here.</a>
+<a th:href="@{/}" id="mainLink"><img th:src="@{/img/logo.jpeg}" class="topBar" id="logoImg"/></a>
+<a th:href="@{/}"><btn class="nextBtn">You're ready to invest! Back to home</btn></a>
+<p>Content created personally with pictures taken from <a
+        th:href="@{https://unsplash.com/}">Unsplash</a>
 </p>
 <div th:insert="fragments/_footer :: footer"></div>
 </body>

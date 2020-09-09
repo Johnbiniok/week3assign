@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>How to link Accounts</title>
+    <title>Start investing</title>
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
@@ -10,12 +10,14 @@
 <div th:insert="fragments/_header :: header"></div>
 
 <h1>How to Invest</h1>
-<img class="left" th:src="@{/img/stoinks.jpg}" alt="Fossil development">
+<img class="left" th:src="@{/img/stoinks.jpeg}" alt="Guy watching stocks">
+<h2>Linking bank accounts</h2>
 <p>
     It is highly suggested regardless of the exchange you choose, that you link a bank account for transfers. This is
     important because it can save you money in the form of fees, and some exchanges may also give out incentives to
     link a bank account, such as free cryptocurrency or bonuses on your first transfer. It is recommended that you take
-    some time before investing to look at the markets and compare them with the last day, week, month, year, and all time.
+    some time before investing to look at the markets and compare them with the last day, week, month, year, and all
+    time.
     This will give a good indication of the volatility of that kind of cryptocurrency and a general idea of where it is
     at in its "cycle".
 </p>
@@ -29,15 +31,19 @@
 <p>
     Once your account is set up on any crypto exchange, all you have to do is link a bank account or credit card and you
     can be the owner of digital currency! It is instantaneous to transfer money (depending on your bank) and you will
-    receive your cryptocurrency immediately. Most exchanges make it pretty self explanatory on how to purchase cryptocurrency,
-    but if you find a brand new kind of coin that was just released on a platform, it is beneficial to check it out early,
+    receive your cryptocurrency immediately. Most exchanges make it pretty self explanatory on how to purchase
+    cryptocurrency,
+    but if you find a brand new kind of coin that was just released on a platform, it is beneficial to check it out
+    early,
     because that means it will likely gain value.
 </p>
 <h2>How to sell CryptoCurrency</h2>
 <p>
     Exchanges make it just as easy to sell cryptocurrency as they do to buy it, and it is also instantaneous. This is
-    a large reason it might be a preferred method of investing, because money doesn't need to be tied up for long periods
-    of time between buying and selling. The major downfall is that often the exchanges will charge a small trading fee to
+    a large reason it might be a preferred method of investing, because money doesn't need to be tied up for long
+    periods
+    of time between buying and selling. The major downfall is that often the exchanges will charge a small trading fee
+    to
     sell crypto. Typically this is anywhere from 1-5% of the money being sold back to the exchange.
 </p>
 <h2>How to trade CryptoCurrency</h2>
@@ -47,8 +53,11 @@
     between peers is by using a QR code that links to a cryptocurrency wallet. Using this method, you can send
     and receive cryptocurrency.
 </p>
-<p>Content taken from <a
-        href="https://wgnhs.wisc.edu/wisconsin-geology/fossils-of-wisconsin/fossil-formation-in-wisconsin/">here.</a>
+
+<a th:href="@{/learn/more}"><btn class="nextBtn">Want to learn more?</btn></a>
+
+<p>Content created personally with pictures taken from <a
+        th:href="@{https://unsplash.com/}">Unsplash</a>
 </p>
 <div th:insert="fragments/_footer :: footer"></div>
 </body>

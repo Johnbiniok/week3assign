@@ -22,7 +22,7 @@ public class TeachController {
             return "pages/investment-options";
         }
 
-        @RequestMapping("/more")
+       @RequestMapping("/more")
         public String showMoreInfo() { return "pages/learn-more"; }
 
 }
